@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     screens: {
       sm: "375px",
-      lg: "778px",
+      lg: "914px",
     },
     colors: {
       "very-dark-grayish-blue": "hsl(217, 19%, 35%)",
@@ -24,11 +24,17 @@ module.exports = {
       "0": "0rem",
       "15": "0.9375rem",
       "16": "1rem",
+      "18": "1.125rem",
       "20": "1.25rem",
+      "22": "1.375rem",
       "24": "1.5rem",
       "32": "2rem",
       "36": "2.25rem",
       "40": "2.5rem",
+      "64": "4rem",
+      "68": "4.25rem",
+      "96": "6rem",
+      "248": "15.5rem",
       "285": "17.8125rem",
     },
     fontSize: {
@@ -39,6 +45,7 @@ module.exports = {
     letterSpacing: {
       "02": "0.0125rem",
       "01": "0.00625rem",
+      "5": "0.3125rem",
     },
     extend: {
       fontFamily: {
@@ -53,6 +60,9 @@ module.exports = {
       },
       borderRadius: {
         "card": "0.625rem",
+      },
+      borderWidth: {
+        "12": "0.75rem",
       },
     },
   },
