@@ -24,7 +24,7 @@ function closePopover() {
       <div class="flex flex-col items-center space-y-16 sm:space-y-0 sm:flex-row">
         <img draggable="false" class="flex-grow-0 flex-shrink-0 basis-auto w-40 h-40 rounded-full sm:mr-16" src="/src/images/avatar-michelle.jpg" alt="">
         <div class="flex-1">
-          <h4 class="text-13 font-bold text-very-dark-grayish-blue tracking-01">Michelle Appleton</h4>
+          <h3 class="text-13 font-bold text-very-dark-grayish-blue tracking-01">Michelle Appleton</h3>
           <p class="text-13 font-medium text-grayish-blue tracking-01">28 Jun 2020</p>
         </div>
         <button
